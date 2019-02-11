@@ -1,4 +1,4 @@
-# Audio ACDB - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Audio ACDB
 vendor/etc/acdbdata/QRD/QRD_adsp_avs_config.acdb
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
@@ -22,7 +22,7 @@ vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libmdsprpc.so
 
-# ADSP modules - from Sakura MIUI PIE RELEASE
+# ADSP modules
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
@@ -32,7 +32,7 @@ vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 
-# Audio - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Audio 
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -56,7 +56,7 @@ vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
 
-# ANT+ (system) - from enchilada - PKQ1.180716.001
+# ANT+ (system)
 lib64/com.qualcomm.qti.ant@1.0.so
 -lib64/libantradio.so
 lib/com.qualcomm.qti.ant@1.0.so
@@ -66,7 +66,7 @@ lib/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
-# Bluetooth - from Sakura MIUI PIE RELEASE
+# Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/bin/wcnss_filter
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
@@ -87,10 +87,10 @@ vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_1_6.fw
 
-# Charger - from Sakura MIUI PIE RELEASE
+# Charger
 vendor/bin/hvdcp_opti
 
-# CNE - from Sakura MIUI PIE RELEASE
+# CNE
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
 framework/cneapiclient.jar
@@ -162,7 +162,7 @@ vendor/lib64/libcneqmiutils.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 
-# DPM - from Sakura MIUI PIE RELEASE
+# DPM
 vendor/bin/dpmQmiMgr
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
@@ -185,7 +185,7 @@ vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 
-# DRM - Widevine - from Sakura MIUI PIE RELEASE
+# DRM - Widevine
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/lib64/libwvhidl.so
@@ -202,7 +202,7 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/gatekeeper.msm8953.so
 vendor/lib64/hw/gatekeeper.msm8953.so
 
-# GPS - from Tissot PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# GPS
 etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qualcomm.location.xml
 etc/permissions/izat.xt.srv.xml
@@ -256,7 +256,7 @@ vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 
-# Graphics - from Sakura MIUI PIE RELEASE
+# Graphics
 #lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
 #lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -310,11 +310,11 @@ vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
-# Graphics (HDR) - from Sakura MIUI PIE RELEASE
+# Graphics (HDR)
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
-# Graphics (Postprocessing) - from Sakura MIUI PIE RELEASE
+# Graphics (Postprocessing)
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 -lib/vendor.display.color@1.0.so
@@ -337,11 +337,11 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# Graphics (Vulkan) - from Sakura MIUI PIE RELEASE
+# Graphics (Vulkan)
 vendor/lib/hw/vulkan.msm8953.so
 vendor/lib64/hw/vulkan.msm8953.so
 
-# Graphics firmware - from Sakura MIUI PIE RELEASE
+# Graphics firmware
 vendor/firmware/a506_zap.b00
 vendor/firmware/a506_zap.b01
 vendor/firmware/a506_zap.b02
