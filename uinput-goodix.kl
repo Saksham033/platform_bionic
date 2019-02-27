@@ -1,0 +1,39 @@
+#
+# Goodix fingerprint sensor driver
+#
+# Copyright (c) 2013,2014 Fingerprint Cards AB <tech@fingerprints.com>
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License Version 2
+# as published by the Free Software Foundation.
+
+### Xiaomi Mi A2 Lite ###
+#add device 8: /dev/input/event3
+#        name: "uinput-goodix"
+### for 9.6.4.0 stock
+#l2r @ key 103
+#r2l @ key 108
+#u2d @ key 106
+#d2u @ key 105
+#tap @ key 114
+
+key 106   WAKEUP
+key 103   PASTE
+
+### for 9.6.4.0+ stock
+#l2r @ key 198
+#r2l @ key 197
+#u2d @ key 196
+#d2u @ key 195
+#tap @ key 114
+
+key 196   WAKEUP
+key 198   PASTE
+
+#DPAD_LEFT
+#DPAD_RIGHT
+#SYSTEM_NAVIGATION_DOWN
+#SYSTEM_NAVIGATION_UP
+#VOICE_ASSIST
+#HOME
+#COPY
